@@ -1,5 +1,4 @@
 package com.company.bizapp
-
 import android.content.ClipData
 import android.os.Bundle
 import android.util.Log
@@ -41,6 +40,7 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
+
                 ) {
                     CreateBizCard()
                 }
